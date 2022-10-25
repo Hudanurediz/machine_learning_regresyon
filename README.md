@@ -28,3 +28,9 @@ Basit doğrusal regresyon
 - Bağımsız değişkenin herhangi bir değerinde bağımlı değişkenin değerlerine
 
 ulaşmak için kullanılır.
+
+**Basit Doğrusal Regresyon Hesaplamaları**
+
+![image](https://user-images.githubusercontent.com/73705686/197873049-8a96866e-e1ad-43fa-9d09-492f2ac355c9.png)
+
+

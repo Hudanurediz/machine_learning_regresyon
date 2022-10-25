@@ -4,4 +4,4 @@ Denetimli öğrenme, alınan veriler ve bu veriler sonucu elimizdeki oluşan bil
 Denetimli öğrenme algoritmaları sürekli ve kategorik olmak üzere iki gruba ayrılır.
 Regresyon bağımsız değişken(ler) ve bağımlı değişken arasındaki ilişkiyi açıklamak için kullanılan denetimli algoritma modelleridir. Bu çeşit algoritmalar bağımlı değişkeni tahmin etmeye çalışırlar.
 > Makine Öğrenmesinde Regresyon
-** Makine öğrenmesinde regresyon ** eldeki veri setlerini makineye öğretmeyi amaçlar. Makinenin veri setini ezberlemesinin önüne geçmek ister. Yani tutarlı tahminler yapmasını sağlar.
+Makine öğrenmesinde regresyon eldeki veri setlerini makineye öğretmeyi amaçlar. Makinenin veri setini ezberlemesinin önüne geçmek ister. Yani tutarlı tahminler yapmasını sağlar.

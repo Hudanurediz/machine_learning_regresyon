@@ -3,4 +3,4 @@
 Denetimli öğrenme, alınan veriler ve bu veriler sonucu elimizdeki oluşan bilgileri etiketleyerek modelleme işlemidir.Öngöremediğimiz verilerle ilgili yapılan tahmin yürütme algoritmasıdır. 
 Denetimli öğrenme algoritmaları sürekli ve kategorik olmak üzere iki gruba ayrılır.
 Regresyon bağımsız değişken(ler) ve bağımlı değişken arasındaki ilişkiyi açıklamak için kullanılan denetimli algoritma modelleridir. Bu çeşit algoritmalar bağımlı değişkeni tahmin etmeye çalışırlar.
-MAKİNE ÖĞRENMESİNDE REGRESYON
+> Makine Öğrenmesinde Regresyon

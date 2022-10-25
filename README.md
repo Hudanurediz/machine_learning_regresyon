@@ -42,7 +42,7 @@ Bu farka göre modeller arasındaki doğruluk kontrolü yapılır.
 
 Bir örnek verecek olursak bir pazarlama firmasının televizyon, gazete ve radyoya verdiği reklamların satışlar üzerindeki etkisini araştırdığını düşünelim.
 
-![image](https://user-images.githubusercontent.com/73705686/197874890-7018aa94-ec0d-4a75-ae42-fb1bbafb8b34.png)
+![image](https://user-images.githubusercontent.com/73705686/197875886-902fd1d3-1d14-49f8-b007-b2f492f9af3f.png)
 
 
 satışlar (bağımlı değişken) ve reklamlar(bağımsız değişken) arasındaki ilişki yukarıdaki gibi formülize edilir.
@@ -52,4 +52,31 @@ satışlar (bağımlı değişken) ve reklamlar(bağımsız değişken) arasınd
 
 
 regresyon fonksiyonu olarak ise yukarıdaki gibi formülize edebiliriz.
+
+![image](https://user-images.githubusercontent.com/73705686/197875988-4a268731-f071-4790-a600-f5f009c2c683.png)
+
+
+Yukarıda tv ve satış verilerine göre oluşturulmuş bir grafik gösterilmektedir. Bu grafikte bulunan mavi renkli doğru regresyon çizgisidir yani tahmini değerimizdir. Kırmızı olarak gösterilen noktalar ise gerçek değerlerimizdir. Regresyon çizgisi ve gerçek değerler arasındaki fark 𝓔 yani hata payıdır.
+
+Basit doğrusal regresyon analizi sonucu parametre kestirimlerinin güvenli olabilmesi için bazı varsayımların geçerli olması gereklidir .
+Modeldeki bağımsız değişkenlerin, bağımlı değişkeni ne kadar açıkladığı R2 değeri ile ölçülür.
+
+R2 değeri 
+
+-Toplam Kareler Toplamı
+
+-Artık Kareler Toplamı
+
+değerleri ile hesaplanır.
+
+![image](https://user-images.githubusercontent.com/73705686/197877258-01c1c364-18ac-4284-ae39-a40e373de3be.png)
+
+
+R2  0-1 arasında bir değer alır. R2 değerinin 1’e yakın olması bağımsız değişkenlerin, bağımlı değişkenleri iyi bir şekilde açıkladığını gösterir.
+
+
+
+
+
+
 

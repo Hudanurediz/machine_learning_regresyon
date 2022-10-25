@@ -33,4 +33,23 @@ ulaşmak için kullanılır.
 
 ![image](https://user-images.githubusercontent.com/73705686/197873049-8a96866e-e1ad-43fa-9d09-492f2ac355c9.png)
 
+Basit doğrusal regresyon formülünde y değeri yanıt değişkeni yani bağımlı değişkenimizdir. Bu değişkenin bağımsız değişken x ile aralarındaki ilişki doğrusal regresyon modelinde incelediğimiz ilişkidir.
+Formülde bulunan 𝓔 değeri Gerçek değer ve tahmini değer arasındaki farktır.
+
+![image](https://user-images.githubusercontent.com/73705686/197874374-6e7b297b-c982-4313-8879-75f79510e1ee.png)
+
+Bu farka göre modeller arasındaki doğruluk kontrolü yapılır.
+
+Bir örnek verecek olursak bir pazarlama firmasının televizyon, gazete ve radyoya verdiği reklamların satışlar üzerindeki etkisini araştırdığını düşünelim.
+
+![image](https://user-images.githubusercontent.com/73705686/197874890-7018aa94-ec0d-4a75-ae42-fb1bbafb8b34.png)
+
+
+satışlar (bağımlı değişken) ve reklamlar(bağımsız değişken) arasındaki ilişki yukarıdaki gibi formülize edilir.
+
+
+![image](https://user-images.githubusercontent.com/73705686/197875227-bb8ecd57-abae-4760-a0e1-459a1be3a6cd.png)
+
+
+regresyon fonksiyonu olarak ise yukarıdaki gibi formülize edebiliriz.
 

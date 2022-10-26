@@ -6,6 +6,50 @@ Denetimli öğrenme algoritmaları sürekli ve kategorik olmak üzere iki gruba 
 
 Regresyon bağımsız değişken(ler) ve bağımlı değişken arasındaki ilişkiyi açıklamak için kullanılan denetimli algoritma modelleridir. Bu çeşit algoritmalar bağımlı değişkeni tahmin etmeye çalışırlar.
 
+>**Regresyon Analizi Nedir,Nasıl Yapılır?**
+
+Regresyon analizi iki veya daha fazla değişkenin istatistiksel olarak incelenmesi için kullanılan yöntemdir. Üç adımda gerçekleşir:
+
+- **Hipotez Oluşturulur**
+
+Regresyon analizi yapmak için, ilişkili olduğu varsayılan iki değişkeni seçilmelidir. Mümkün olduğu kadar çok veri toplayarak ilişkileri hakkında hipoteziniz oluşturulur fakat bunu yaparken overfitting yapmamaya dikkat edilmelidir.
+
+- **Hipotez Oluşturulur**
+
+İki veri seti ile doğrusal regresyon için temel bir çizgi grafiği oluşturulabilir. Bir değişken X diğeri ise Y ekseninde çizilir. Bir elektronik tabloya girdiğinizde, değişkenler arasındaki korelasyonu gözlemlenebilir. Düz bir çizgi varsa, bu pozitif bir korelasyon gösterir.
+
+- **Sonuçlar Analiz Edilir**
+
+Grafiği temel bir doğrusal regresyonda inceleyerek kesişim, katsayı ve korelasyonu görebilirsiniz. Bu rakamları bir araya getirmek, iki veri seti arasındaki tarihsel ilişkiyi göstererek modelin gelecekte nasıl görüneceğini tahmin etmenize olanak tanır
+
+>**Regresyon Analizi Kullanım Alanları**
+
+- Tahmin
+
+Örnek verecek olursak işletmelerde regresyon analizinin en yaygın kullanım alanı olarak gelecek ve fırsatları tahmin etmek olduğunu söyleyebiliriz.
+
+- CAPM
+
+Bir varlığın öngörülen getirisi ile ilgili piyasa risk primi arasındaki bağlantıyı kuran The Capital Asset Pricing Model (CAPM), doğrusal regresyon modeline dayanır. Finansal analistler tarafından finansal analizde sıklıkla kullanılır.
+
+- Rekabet Karşılaştırma
+
+İki firma arası finansal kıyaslamalar yapmak için kullanılır.Ayrıca iki firmanın hisse senedi fiyatları arasındaki ilişkiyi belirlemek için de kullanılabilir ve hangi yönlerin satışlarını etkilediğini belirlemede firmaya yardımcı olabilir. Bu teknikler sayesinde küçük işletmelerin kısa sürede yükselmesi gerçekleşebilir.
+
+- Güvenilir Kaynak
+
+Daha iyi iş kararları vermek, varsayımları ve içgüdüleri azaltmak için regresyon analizini kullanılır. Yöneticiler, verileri filtrelemek ve mümkün olan en iyi kararları vermek için regresyon analizinden yararlanır.
+
+>**Regresyon Analizi Hangi Sektörlerde Kullanılır**
+
+- Finans
+
+- Pazarlama
+
+- Üretim
+
+- İlaç
+
 >**Makine Öğrenmesinde Regresyon** 
 
 
@@ -119,46 +163,4 @@ Sonrasında bir önem değeri belirlenir. (Örneğin SL=0,05)
 Eldeki bağımsız değişkenler ve bağımlı değişkenle ayrı ayrı ikişerli modeller oluşturulur. En küçük P değerine sahip değişken seçilir ve modele eklenir. Sonrasında belirlenen önem değerinden düşük olmakla beraber yine en küçük P değerine sahip değişken modele eklenir. Seçilen yeni değişkenin P değerinin önem değerinden fazla oluncaya dek bu işlem yapılır.
 En küçük P değerine sahip yeni değişkenin P'nin önem değerinden fazla olduğunu gözlemlendiğinde daha önce eklediğimiz değişkenlerin model için yeterli olduğu anlaşılır.
 
->**Regresyon Analizi Nedir,Nasıl Yapılır?**
 
-Regresyon analizi iki veya daha fazla değişkenin istatistiksel olarak incelenmesi için kullanılan yöntemdir. Üç adımda gerçekleşir:
-
-- **Hipotez Oluşturulur**
-
-Regresyon analizi yapmak için, ilişkili olduğu varsayılan iki değişkeni seçilmelidir. Mümkün olduğu kadar çok veri toplayarak ilişkileri hakkında hipoteziniz oluşturulur fakat bunu yaparken overfitting yapmamaya dikkat edilmelidir.
-
-- **Hipotez Oluşturulur**
-
-İki veri seti ile doğrusal regresyon için temel bir çizgi grafiği oluşturulabilir. Bir değişken X diğeri ise Y ekseninde çizilir. Bir elektronik tabloya girdiğinizde, değişkenler arasındaki korelasyonu gözlemlenebilir. Düz bir çizgi varsa, bu pozitif bir korelasyon gösterir.
-
-- **Sonuçlar Analiz Edilir**
-
-Grafiği temel bir doğrusal regresyonda inceleyerek kesişim, katsayı ve korelasyonu görebilirsiniz. Bu rakamları bir araya getirmek, iki veri seti arasındaki tarihsel ilişkiyi göstererek modelin gelecekte nasıl görüneceğini tahmin etmenize olanak tanır
-
->**Regresyon Analizi Kullanım Alanları**
-
-- Tahmin
-
-Örnek verecek olursak işletmelerde regresyon analizinin en yaygın kullanım alanı olarak gelecek ve fırsatları tahmin etmek olduğunu söyleyebiliriz.
-
-- CAPM
-
-Bir varlığın öngörülen getirisi ile ilgili piyasa risk primi arasındaki bağlantıyı kuran The Capital Asset Pricing Model (CAPM), doğrusal regresyon modeline dayanır. Finansal analistler tarafından finansal analizde sıklıkla kullanılır.
-
-- Rekabet Karşılaştırma
-
-İki firma arası finansal kıyaslamalar yapmak için kullanılır.Ayrıca iki firmanın hisse senedi fiyatları arasındaki ilişkiyi belirlemek için de kullanılabilir ve hangi yönlerin satışlarını etkilediğini belirlemede firmaya yardımcı olabilir. Bu teknikler sayesinde küçük işletmelerin kısa sürede yükselmesi gerçekleşebilir.
-
-- Güvenilir Kaynak
-
-Daha iyi iş kararları vermek, varsayımları ve içgüdüleri azaltmak için regresyon analizini kullanılır. Yöneticiler, verileri filtrelemek ve mümkün olan en iyi kararları vermek için regresyon analizinden yararlanır.
-
->**Regresyon Analizi Hangi Sektörlerde Kullanılır**
-
-- Finans
-
-- Pazarlama
-
-- Üretim
-
-- İlaç

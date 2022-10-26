@@ -101,4 +101,15 @@ Bağımlı değişkeni yüksek oranda etkileyen bir değişkeni veri setinden ka
 
 >**Geriye Doğru Eleme**
 
+Tüm değişkenleri içeren bir modelden, fazlalıklarını atarak daha verimli daha küçük bir model oluşturma içeren algoritmadır. Burada fazlalık olarak ifade ettiklerimiz modele etki ettiğini düşünmediğimiz değişkenlerdir. Bu değişkenler model için belirlenen önem değeri (Bir çeşit eşik değeri(threshold)) altında kalan değişkenlerdir.(p<0.05)
+
+Belirlenen ve modelle alakasız olan bu değişkenler modelden çıkarılır.
+
+En yüksek P değerine sahip değişken bulunur. Eğer önem değerinden yüksekse (P>SL) bir sonraki adıma geçilir. Eğer düşükse modelin geriye doğru eleme algoritmasını tamamlamış olur.
+
+P değeri önem değerinden yüksek değişken modelden çıkartılır ve 3. adıma dönülür. Aynı işlemler tekrar edilir.
+
+
+>**İleri Doğru Seçme**
+
 

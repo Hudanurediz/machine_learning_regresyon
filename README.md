@@ -125,3 +125,40 @@ Regresyon analizi iki veya daha fazla değişkenin istatistiksel olarak incelenm
 
 - **Hipotez Oluşturulur**
 
+Regresyon analizi yapmak için, ilişkili olduğu varsayılan iki değişkeni seçilmelidir. Mümkün olduğu kadar çok veri toplayarak ilişkileri hakkında hipoteziniz oluşturulur fakat bunu yaparken overfitting yapmamaya dikkat edilmelidir.
+
+- **Hipotez Oluşturulur**
+
+İki veri seti ile doğrusal regresyon için temel bir çizgi grafiği oluşturulabilir. Bir değişken X diğeri ise Y ekseninde çizilir. Bir elektronik tabloya girdiğinizde, değişkenler arasındaki korelasyonu gözlemlenebilir. Düz bir çizgi varsa, bu pozitif bir korelasyon gösterir.
+
+- **Sonuçlar Analiz Edilir**
+
+Grafiği temel bir doğrusal regresyonda inceleyerek kesişim, katsayı ve korelasyonu görebilirsiniz. Bu rakamları bir araya getirmek, iki veri seti arasındaki tarihsel ilişkiyi göstererek modelin gelecekte nasıl görüneceğini tahmin etmenize olanak tanır
+
+>**Regresyon Analizi Kullanım Alanları**
+
+- Tahmin
+
+Örnek verecek olursak işletmelerde regresyon analizinin en yaygın kullanım alanı olarak gelecek ve fırsatları tahmin etmek olduğunu söyleyebiliriz.
+
+- CAPM
+
+Bir varlığın öngörülen getirisi ile ilgili piyasa risk primi arasındaki bağlantıyı kuran The Capital Asset Pricing Model (CAPM), doğrusal regresyon modeline dayanır. Finansal analistler tarafından finansal analizde sıklıkla kullanılır.
+
+- Rekabet Karşılaştırma
+
+İki firma arası finansal kıyaslamalar yapmak için kullanılır.Ayrıca iki firmanın hisse senedi fiyatları arasındaki ilişkiyi belirlemek için de kullanılabilir ve hangi yönlerin satışlarını etkilediğini belirlemede firmaya yardımcı olabilir. Bu teknikler sayesinde küçük işletmelerin kısa sürede yükselmesi gerçekleşebilir.
+
+- Güvenilir Kaynak
+
+Daha iyi iş kararları vermek, varsayımları ve içgüdüleri azaltmak için regresyon analizini kullanılır. Yöneticiler, verileri filtrelemek ve mümkün olan en iyi kararları vermek için regresyon analizinden yararlanır.
+
+>**Regresyon Analizi Hangi Sektörlerde Kullanılır**
+
+- Finans
+
+- Pazarlama
+
+- Üretim
+
+- İlaç

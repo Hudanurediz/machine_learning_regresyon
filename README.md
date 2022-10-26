@@ -14,7 +14,7 @@ Regresyon analizi iki veya daha fazla değişkenin istatistiksel olarak incelenm
 
 Regresyon analizi yapmak için, ilişkili olduğu varsayılan iki değişkeni seçilmelidir. Mümkün olduğu kadar çok veri toplayarak ilişkileri hakkında hipoteziniz oluşturulur fakat bunu yaparken overfitting yapmamaya dikkat edilmelidir.
 
-- **Hipotez Oluşturulur**
+- **Grafik Oluşturulur**
 
 İki veri seti ile doğrusal regresyon için temel bir çizgi grafiği oluşturulabilir. Bir değişken X diğeri ise Y ekseninde çizilir. Bir elektronik tabloya girdiğinizde, değişkenler arasındaki korelasyonu gözlemlenebilir. Düz bir çizgi varsa, bu pozitif bir korelasyon gösterir.
 

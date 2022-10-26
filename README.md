@@ -1,4 +1,4 @@
->**Denetimli öğrenme algoritmaları: Regresyon (Basit Doğrusal regresyon ve çoklu regresyon) nedir, çalışma mantığı nedir, kullanım alanları, örnekleri**
+>#**Denetimli öğrenme algoritmaları: Regresyon (Basit Doğrusal regresyon ve çoklu regresyon) nedir, çalışma mantığı nedir, kullanım alanları, örnekleri**
 
 Denetimli öğrenme, alınan veriler ve bu veriler sonucu elimizdeki oluşan bilgileri etiketleyerek modelleme işlemidir.Öngöremediğimiz verilerle ilgili yapılan tahmin yürütme algoritmasıdır. 
 

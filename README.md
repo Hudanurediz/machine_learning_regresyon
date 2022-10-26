@@ -6,7 +6,7 @@ Denetimli öğrenme algoritmaları sürekli ve kategorik olmak üzere iki gruba 
 
 Regresyon bağımsız değişken(ler) ve bağımlı değişken arasındaki ilişkiyi açıklamak için kullanılan denetimli algoritma modelleridir. Bu çeşit algoritmalar bağımlı değişkeni tahmin etmeye çalışırlar.
 
-**Makine Öğrenmesinde Regresyon** 
+>**Makine Öğrenmesinde Regresyon** 
 
 
 Makine öğrenmesinde regresyon eldeki veri setlerini makineye öğretmeyi amaçlar. Makinenin veri setini ezberlemesinin önüne geçmek ister. Yani tutarlı tahminler yapmasını sağlar.
@@ -16,7 +16,7 @@ Bir eğitim seti ve fonksiyonları ile bir veri modeli oluşturup gelen yeni ver
 Regresyon analizi işleminde kullanılan regresyon yöntemleri büyük önem arz etmektedir. Kullanılan regresyon yöntemi sonucunda hatalı sonuçlar alınabilir.
 
 
-**Basit Doğrusal Regresyon**
+>**Basit Doğrusal Regresyon**
 
 
 Basit doğrusal regresyon açıklayan yani bağımlı değişken ile tek bir açıklayıcı yani bağımsız değişken arasındaki ilişkinin modellenmesidir. Başka bir şekilde ifade edecek olursak bağımlı değişkenin bağımsız değişkenin bir fonksiyonu olarak en doğru biçimde tahmin edilmesidir. Yani basit doğrusal regresyon işlemlerinde tahmin edilmek istenen bağımlı değişkendir.
@@ -29,7 +29,7 @@ Basit doğrusal regresyon
 
 ulaşmak için kullanılır.
 
-**Basit Doğrusal Regresyon Hesaplamaları**
+>**Basit Doğrusal Regresyon Hesaplamaları**
 
 ![image](https://user-images.githubusercontent.com/73705686/197873049-8a96866e-e1ad-43fa-9d09-492f2ac355c9.png)
 
@@ -74,7 +74,7 @@ değerleri ile hesaplanır.
 
 R2  0-1 arasında bir değer alır. R2 değerinin 1’e yakın olması bağımsız değişkenlerin, bağımlı değişkenleri iyi bir şekilde açıkladığını gösterir.
 
-**Çoklu Regresyon Nedir?**
+>**Çoklu Regresyon Nedir?**
 
 Doğrusal basit regresyonun bağımsız değişken sayısı birden fazla olan versiyonudur. Yani çoklu regreson denkleminde yanıt değişkenimiz olan bağımlı değişkeni etkileyen birden fazla bağımsız değişken vardır.
 
@@ -84,12 +84,12 @@ Doğrusal basit regresyonun bağımsız değişken sayısı birden fazla olan ve
 
 Çoklu doğrusal regresyonda her bağımsız değişkenin bağımlı değişkene etkisi birbirinden farklıdır. Bundan dolayı basit lineer her değişkenin katsayısı birbirinden farklı olabilir. 
 
-**P değeri nedir?**
+>**P değeri nedir?**
 Varsayımlarımızın doğruluğunu belirlememize yardımcı olan istatistiksel bir sonuçtur. Yapılan analiz sonucunda eldeki verinin normal değer aralığında olup olmadığını kontrol etmemizi sağlar.
 
 Genellikle, bir veri setinin P değeri önceden belirlenmiş belirli bir miktarın altındaysa (örneğin, 0.05 gibi), bilim insanları deneylerinin "boş hipotezini" reddedeceklerdir. Çünkü değişkenin üzerinde anlamlı bir etkisi olmadığı anlaşılmış olur.
 
-**Çoklu Doğrusal Regresyon Modeli Oluşturmak**
+>**Çoklu Doğrusal Regresyon Modeli Oluşturmak**
 
 
 

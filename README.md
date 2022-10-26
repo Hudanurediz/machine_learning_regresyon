@@ -1,4 +1,4 @@
->#**Denetimli öğrenme algoritmaları: Regresyon (Basit Doğrusal regresyon ve çoklu regresyon) nedir, çalışma mantığı nedir, kullanım alanları, örnekleri**
+>**Denetimli öğrenme algoritmaları: Regresyon (Basit Doğrusal regresyon ve çoklu regresyon) nedir, çalışma mantığı nedir, kullanım alanları, örnekleri**
 
 Denetimli öğrenme, alınan veriler ve bu veriler sonucu elimizdeki oluşan bilgileri etiketleyerek modelleme işlemidir.Öngöremediğimiz verilerle ilgili yapılan tahmin yürütme algoritmasıdır. 
 
@@ -112,4 +112,16 @@ P değeri önem değerinden yüksek değişken modelden çıkartılır ve 3. ad�
 
 >**İleri Doğru Seçme**
 
+Başlangıçta hiçbir bağımsız değişken içermeyen bir modeldir.Sonrasında ise hipoteze en yararlı olduğu tahmin edilen değişkenleri alarak kendisini daha büyük bir model haline getirir.
+
+Sonrasında bir önem değeri belirlenir. (Örneğin SL=0,05)
+
+Eldeki bağımsız değişkenler ve bağımlı değişkenle ayrı ayrı ikişerli modeller oluşturulur. En küçük P değerine sahip değişken seçilir ve modele eklenir. Sonrasında belirlenen önem değerinden düşük olmakla beraber yine en küçük P değerine sahip değişken modele eklenir. Seçilen yeni değişkenin P değerinin önem değerinden fazla oluncaya dek bu işlem yapılır.
+En küçük P değerine sahip yeni değişkenin P'nin önem değerinden fazla olduğunu gözlemlendiğinde daha önce eklediğimiz değişkenlerin model için yeterli olduğu anlaşılır.
+
+>**Regresyon Analizi Nedir,Nasıl Yapılır?**
+
+Regresyon analizi iki veya daha fazla değişkenin istatistiksel olarak incelenmesi için kullanılan yöntemdir. Üç adımda gerçekleşir:
+
+- **Hipotez Oluşturulur**
 

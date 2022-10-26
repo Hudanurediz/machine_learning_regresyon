@@ -91,8 +91,14 @@ Genellikle, bir veri setinin P değeri önceden belirlenmiş belirli bir miktar�
 
 >**Çoklu Doğrusal Regresyon Modeli Oluşturmak**
 
+Çoklu Regresyon modeli oluştururken birden fazla değişken incelememiz gerekir.Çünkü bu değişkenlerin modele etkileri farklıdır. Birden fazla bağımsız değişken içerdikleri için her bir değişken bağımlı değişkene farklı oranlarda etki edebilir ve bu etkilerin hepsi anlamlı olmayabilir.
 
+Bağımlı değişkeni yüksek oranda etkileyen bir değişkeni veri setinden kaldırdığımız zaman oluşacak hatalar veya gereksiz bir değişkeni veri setinden atmadığımız zaman kaybedeceğimiz verim istenilmeyen bir sonuçtur.
 
+>**Regresyon Modeli Kurulumunda 5 Metod**
 
+![image](https://user-images.githubusercontent.com/73705686/198049144-03ff0322-ed55-4d5a-9195-0e49a6601b3a.png)
+
+>**Geriye Doğru Eleme**
 
 

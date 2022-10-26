@@ -165,3 +165,35 @@ En küçük P değerine sahip yeni değişkenin P'nin önem değerinden fazla ol
 
 >**Basit Doğrusal ve Çoklu Doğrusal Regresyon Örnekleri**
 
+![image](https://user-images.githubusercontent.com/73705686/198070288-03c9707b-a997-4923-9354-d36700d93404.png)
+
+Yukarıdaki görselde reklam harcamalarında kullanılan basit doğrusal regresyon örneği gösteriliyor. Oluşturulan regresyon denklemine göre belirli analiz işlemleri yapılabilir.
+
+Örneğin, araştırmacılar hastalara belirli bir ilacın çeşitli dozajlarını uygulayabilir ve kan basıncının nasıl tepki verdiğini gözlemleyebilir. Yordayıcı değişken olarak dozajı ve yanıt değişkeni olarak kan basıncını kullanan basit bir doğrusal regresyon modeline uyabilirler. Regresyon modeli aşağıdaki formu alacaktır:
+
+![image](https://user-images.githubusercontent.com/73705686/198071277-0727b4ce-8ae8-445d-b808-34cc2d272c1c.png)
+
+Bir başka örnek ise şudur:
+Tarım bilimcileri, gübre ve suyun mahsul verimi üzerindeki etkisini ölçmek için genellikle doğrusal regresyon kullanırlar.
+
+Örneğin, bilim adamları farklı alanlarda farklı miktarlarda gübre ve su kullanabilir ve bunun mahsul verimini nasıl etkilediğini görebilirler. Yordayıcı değişkenler olarak gübre ve su ve yanıt değişkeni olarak mahsul verimi kullanan çoklu doğrusal regresyon modeline uyabilirler. Regresyon modeli aşağıdaki formu alacaktır:
+
+![image](https://user-images.githubusercontent.com/73705686/198072023-fa07a6a1-e877-4c2a-b2a4-d0d835c5a81f.png)
+
+Verilen bu örnekler basit doğrusal regresyonun kullanıldığı bazı örneklerdir. Şimdi çoklu doğrusal regresyon örneklerini biraz inceleyelim.
+
+Çoklu doğrusal regresyon için verebileceğimiz örneklerin başında Gayrimenkul örneği gelir.
+
+Ev satmak için en iyi zamanı tahmin etmeye yardımcı olacak bir model oluşturmak isteyen bir emlak uzmanısınız. Evleri maksimum satış fiyatından satmak istersiniz, ancak satış fiyatını birden fazla faktör etkileyebilir. Bu değişkenler, diğer faktörlerin yanı sıra evin yaşını, mahalledeki diğer evlerin değerini, devlet okulu sisteminin öğrenci performansına ilişkin nicel ölçümlerini ve yakındaki parkların sayısını içerir.Evlerin maksimum satış fiyatını tahmin etmek için bu dört bağımsız değişkenden bir tahmin modeli oluşturabilirsiniz. Bu faktörlerden herhangi biri katsayı değerleri açısından değişirse değişkenleri ayarlayabilirsiniz.
+
+Bir diğer örnek ise Halk Sağlığı örneğidir.
+
+Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Mevcut bilinen enfeksiyonlara dayanarak bu hastalığın gelecekteki yayılmasını tahmin etmek istiyorsunuz. Çok sayıda bağımsız değişken, popülasyon büyüklüğü, popülasyon yoğunluğu, hava sıcaklığı, asemptomatik taşıyıcılar ve popülasyonun sürü bağışıklığına ulaşıp ulaşmadığı dahil olmak üzere gelecekteki enfeksiyonların sayısını etkileyebilir. Yordayıcı değişkenlerin katsayı değerlerindeki olası değişiklikleri hesaba katan bir sonucu tahmin etmek için ampirik veriler üzerinde istatistiksel modelleme ve çoklu doğrusal regresyon analizi yapabilirsiniz.
+
+
+>**KAYNAKÇA**
+- https://en.wikipedia.org/wiki/Simple_linear_regression
+- https://dergipark.org.tr/en/download/article-file/187511
+- https://aws.amazon.com/tr/what-is/logistic-regression/
+- https://www.ibm.com/tr-tr/analytics/learn/linear-regression
+- https://www.scribbr.com/statistics/simple-linear-regression/#:~:text=What%20is%20simple%20linear%20regressio%20n,Both%20variables%20should%20be%20quantitative.

@@ -74,6 +74,22 @@ değerleri ile hesaplanır.
 
 R2  0-1 arasında bir değer alır. R2 değerinin 1’e yakın olması bağımsız değişkenlerin, bağımlı değişkenleri iyi bir şekilde açıkladığını gösterir.
 
+**Çoklu Regresyon Nedir?**
+
+Doğrusal basit regresyonun bağımsız değişken sayısı birden fazla olan versiyonudur. Yani çoklu regreson denkleminde yanıt değişkenimiz olan bağımlı değişkeni etkileyen birden fazla bağımsız değişken vardır.
+
+![image](https://user-images.githubusercontent.com/73705686/198046006-37d7e82f-0e39-4614-8e27-fc66a84b1306.png)
+
+Çoklu regresyon denklemini yukarıdaki gibi tanımlayabiliriz.
+
+Çoklu doğrusal regresyonda her bağımsız değişkenin bağımlı değişkene etkisi birbirinden farklıdır. Bundan dolayı basit lineer her değişkenin katsayısı birbirinden farklı olabilir. 
+
+**P değeri nedir?**
+Varsayımlarımızın doğruluğunu belirlememize yardımcı olan istatistiksel bir sonuçtur. Yapılan analiz sonucunda eldeki verinin normal değer aralığında olup olmadığını kontrol etmemizi sağlar.
+
+Genellikle, bir veri setinin P değeri önceden belirlenmiş belirli bir miktarın altındaysa (örneğin, 0.05 gibi), bilim insanları deneylerinin "boş hipotezini" reddedeceklerdir. Çünkü değişkenin üzerinde anlamlı bir etkisi olmadığı anlaşılmış olur.
+
+**Çoklu Doğrusal Regresyon Modeli Oluşturmak**
 
 
 

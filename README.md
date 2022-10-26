@@ -197,3 +197,6 @@ Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Me
 - https://aws.amazon.com/tr/what-is/logistic-regression/
 - https://www.ibm.com/tr-tr/analytics/learn/linear-regression
 - https://www.scribbr.com/statistics/simple-linear-regression/#:~:text=What%20is%20simple%20linear%20regressio%20n,Both%20variables%20should%20be%20quantitative.
+- https://www.youtube.com/watch?v=4qVRBYAdLAo
+- https://www.cancankiran.com/makine-ogrenimi/
+- https://www.statology.org/linear-regression-real-life-examples/

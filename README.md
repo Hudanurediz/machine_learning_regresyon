@@ -143,6 +143,14 @@ Bağımlı değişkeni yüksek oranda etkileyen bir değişkeni veri setinden ka
 
 ![image](https://user-images.githubusercontent.com/73705686/198049144-03ff0322-ed55-4d5a-9195-0e49a6601b3a.png)
 
+>**All-in-one Model**
+
+![image](https://user-images.githubusercontent.com/73705686/198290789-1d21169d-d1f5-4f98-97bd-d034971bdacf.png)
+
+
+Bu model tahmin yaparken kullanabileceğimiz tüm değişkenleri içerir.Bu yüzden bağımsız değişken ve özellik matrislerini daha az içerir ve  bu durum bizim için avantajlıdır.
+
+
 >**Geriye Doğru Eleme**
 
 Tüm değişkenleri içeren bir modelden, fazlalıklarını atarak daha verimli daha küçük bir model oluşturma içeren algoritmadır. Burada fazlalık olarak ifade ettiklerimiz modele etki ettiğini düşünmediğimiz değişkenlerdir. Bu değişkenler model için belirlenen önem değeri (Bir çeşit eşik değeri(threshold)) altında kalan değişkenlerdir.(p<0.05)
@@ -162,6 +170,14 @@ Sonrasında bir önem değeri belirlenir. (Örneğin SL=0,05)
 
 Eldeki bağımsız değişkenler ve bağımlı değişkenle ayrı ayrı ikişerli modeller oluşturulur. En küçük P değerine sahip değişken seçilir ve modele eklenir. Sonrasında belirlenen önem değerinden düşük olmakla beraber yine en küçük P değerine sahip değişken modele eklenir. Seçilen yeni değişkenin P değerinin önem değerinden fazla oluncaya dek bu işlem yapılır.
 En küçük P değerine sahip yeni değişkenin P'nin önem değerinden fazla olduğunu gözlemlendiğinde daha önce eklediğimiz değişkenlerin model için yeterli olduğu anlaşılır.
+
+>**Çift Yönlü Eleme (Bidirectional Elimination)**
+
+- İlk olarak modelde bir eşik değeri belirlenir.
+- P değeri eşik değerinden küçük olacak şekilde ileri doğru seçme adımlarına geçilir.
+- Geriye doğru elemenin adımları gerçekleştirilir.(P değeri eşik değerinden yüksek değişkenler belirlenerek)
+- 2. ve 3. adımlar tekrarlanır.
+- Hiçbir değişken değiştirilmesi yapılmaz.
 
 >**Basit Doğrusal ve Çoklu Doğrusal Regresyon Örnekleri**
 
@@ -200,3 +216,4 @@ Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Me
 - https://www.youtube.com/watch?v=4qVRBYAdLAo
 - https://www.cancankiran.com/makine-ogrenimi/
 - https://www.statology.org/linear-regression-real-life-examples/
+- https://maniksonituts.medium.com/how-to-build-a-machine-learning-model-715d7ecb3d02
